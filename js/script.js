@@ -8,19 +8,46 @@ const $solarNoon = $("#solarNoon");
 const $funFacts = $("#noon");
 const $sunDistance = $("#sunDistance");
 const $moonDistance = $("#moonDistance");
+const $city = $("#city");
+const $country = $("#country");
+const $state = $("#state");
+const $input = $("#userLocationInput");
+const $button = $("#locationBtn");
 
-const APIKEY = "d58238faeb664450bbe8749fa0b4d267";
+const APIKEY = "66fb01154202440a94a4c5b614978d0c";
 
 $.ajax({
   url: `https://api.ipgeolocation.io/astronomy?apiKey=${APIKEY}`,
 }).then((data) => {
   console.log(data);
-  // NEED TO INSERT A THING HERE THAT SAYS THE USERS LOCATION!!!!!!!!!!!!!!!!!!!!!Maybe start with IP address as the first way of retrieving the data? Get that working then try it with the other syntax
   $sunrise.text(`Sunrise: ${data.sunrise}`);
   $sunset.text(`Sunset: ${data.sunset}`);
   $moonrise.text(`Moonrise: ${data.moonrise}`);
   $moonset.text(`Moonset: ${data.moonset}`);
   $solarNoon.text(`Solar Noon: ${data.solar_noon}`);
   $sunDistance.text(`Distance from the Sun: ${data.sun_distance} km`);
-  $moonDistance.text(`Distance from the Moon: ${data.moon_distance} km`)
+  $moonDistance.text(`Distance from the Moon: ${data.moon_distance} km`);
 });
+
+function getSpaceData() {
+  const userInput = $input.val();
+  $.ajax(
+    `https://api.ipgeolocation.io/astronomy?apiKey=${APIKEY}&location=${userInput},%20US`
+  ).then((data) => {
+    console.log(data);
+    console.log(userInput);
+    //$city.text(`City: ${data.location};
+    $state.text(`State: ${data.location.state}`);
+    $country.text(`Country: ${data.location.country}`);
+    $sunrise.text(`Sunrise: ${data.sunrise}`);
+    $sunset.text(`Sunset: ${data.sunset}`);
+    $moonrise.text(`Moonrise: ${data.moonrise}`);
+    $moonset.text(`Moonset: ${data.moonset}`);
+    $solarNoon.text(`Solar Noon: ${data.solar_noon}`);
+    $sunDistance.text(`Distance from the Sun: ${data.sun_distance} km`);
+    $moonDistance.text(`Distance from the Moon: ${data.moon_distance} km`);
+  });
+}
+$button.on("click", getSpaceData);
+
+//https://api.ipgeolocation.io/astronomy?apiKey=API_KEY&location=New%20York,%20US'

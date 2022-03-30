@@ -1,0 +1,99 @@
+body {
+  background-color: black;
+  color: yellow;
+  max-width: 900px;
+}
+
+button {
+  background-color: skyblue;
+  color: navy;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: skyblue;
+  font-size: 60px;
+}
+
+#location {
+  color: skyblue;
+  text-align: center;
+  font-size: 40px;
+}
+
+#sun {
+  color: yellow;
+  font-size: 40px;
+}
+
+#moon {
+  color: white;
+  text-align: right;
+  font-size: 40px;
+}
+
+#noon {
+  color: skyblue;
+  text-align: center;
+  font-size: 40px;
+}
+#moonrise {
+  text-align: right;
+  color: white;
+  font-size: 25px;
+}
+
+#moonset {
+  text-align: right;
+  color: white;
+  font-size: 25px;
+}
+
+#solarNoon {
+  text-align: center;
+  color: skyblue;
+  font-size: 25px;
+}
+
+#sunDistance {
+  text-align: center;
+  color: skyblue;
+  font-size: 25px;
+}
+
+#moonDistance {
+  text-align: center;
+  color: skyblue;
+  font-size: 25px;
+}
+
+#sunrise {
+  color: yellow;
+  text-align: left;
+  font-size: 25px;
+}
+
+#sunset {
+  color: yellow;
+  text-align: left;
+  font-size: 25px;
+}
+
+#city {
+  color: skyblue;
+  text-align: center;
+  font-size: 25px;
+}
+
+#state {
+  color: skyblue;
+  text-align: center;
+  font-size: 25px;
+}
+
+#country {
+  color: skyblue;
+  text-align: center;
+  font-size: 25px;
+}
