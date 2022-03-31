@@ -39,8 +39,8 @@ When the page opens it will be showing space data for the users individual IP ad
 
 Users will be able to look up information regarding sunrise/sunset and moonrise/moonset times based on location and the date; As for the location, We will be searching by City/State at this time. User should only type in the city or state of their choice
 
-For fun, there will be a section containing Solar noon, Distance from the sun, distance from the moon, on the date and time selected, so this should change each time -->
+For fun, there will be a section containing Solar noon, Distance from the sun, distance from the moon, on the date and time selected, so this should change each time
 
-####Future Enhancements
+#### Future Enhancements
 
 In the near-ish future, I would like to add search parameters for latitude/longitude, date of choice, multiple dates at the same time, search multiple locations and show the data for each one.
