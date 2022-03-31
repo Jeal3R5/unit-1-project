@@ -1,7 +1,10 @@
 body {
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg");
   background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: yellow;
-  max-width: 900px;
+  /* max-width: 900px; */
 }
 
 button {
@@ -14,6 +17,7 @@ h1 {
   text-align: center;
   color: skyblue;
   font-size: 60px;
+  font-family: 'Merriweather', serif;
 }
 
 #location {
