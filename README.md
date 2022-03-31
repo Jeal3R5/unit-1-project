@@ -16,6 +16,7 @@ For fun, there will be a section containing solar noon, distance from the sun, d
 - Git
 - Node
 - DOM
+- Google fonts
 
 ---
 
@@ -24,9 +25,11 @@ For fun, there will be a section containing solar noon, distance from the sun, d
 First, we have the top of the website
 !["Top of Website"](SkyWatchersTop.png)
 
-Next, We have the bottom of the
+Next, We have the bottom of the website
 !["Bottom of Website](SkyWatchersBottom.png)
+Here we are adding Houston into the text box
 !["Entering data into the textbox"](SkyWatchersEnteringCityInfo.png)
+This is a view of the website returning the data for the city entered in the text box
 !["View of the Website returning results from our search](SkyWatchersShowingResultsforTexasSearch.png)
 
 #### Getting Started
