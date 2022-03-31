@@ -1,11 +1,11 @@
-#**Sky Watchers**
+# **Sky Watchers**
 
 Users will be able to look up information regarding sunrise/set and moonrise/set times based on user entered location and date. </br>
 For fun, there will be a section containing solar noon, distance from the sun, distance from the moon, on the date and time selected.
 
 ---
 
-####Technology Used
+#### Technology Used
 
 - HTML
 - CSS
@@ -19,7 +19,7 @@ For fun, there will be a section containing solar noon, distance from the sun, d
 
 ---
 
-####App Screenshots
+#### App Screenshots
 
 First, we have the top of the website
 !["Top of Website"](SkyWatchersTop.png)
@@ -29,11 +29,11 @@ Next, We have the bottom of the
 !["Entering data into the textbox"](SkyWatchersEnteringCityInfo.png)
 !["View of the Website returning results from our search](SkyWatchersShowingResultsforTexasSearch.png)
 
-####Getting Started
+#### Getting Started
 
 If you would like to see the site, please follow this link `https://jeal3r5.github.io/unit-1-project/`
 
-####App Description/Background
+#### App Description/Background
 
 When the page opens it will be showing space data for the users individual IP address, for that day.
 
